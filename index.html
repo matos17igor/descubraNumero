@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio JavaScript</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <button id="botaoIniciar" onclick="iniciar()">Iniciar</button>
+    <div class="text">
+        <h1>Estou pensando em um número de 1 a 100. <br> Você consegue adivinhar?</h1>
+    </div>
+    <div class="informarPalpite">
+        <h2><i>INFORMAR PALPITE</i></h3>
+        <input type="text" id="numeroEscolhido" required>
+        <button id="botaoTentar" onclick="verificarNumero()"><b>Tentar</b></button>
+    </div>
+    
+    <div class="palpites">
+        <div class="header">
+            <h1>PALPITES</h1>
+        </div>
+        <div class="numeroSorteado"></div>    
+    </div>
+
+
+
+    <script src="./js/script.js"></script>
+</body>
+</html>

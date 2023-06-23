@@ -1,0 +1,95 @@
+body {
+    background: rgb(147,204,231);
+}
+
+button {
+    width: 120px;
+    height: 30px;
+}
+
+#botaoIniciar {
+    display: flex;
+    margin: auto;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px solid black;
+    height: 40px;
+    width: 130px;
+}
+
+#botaoIniciar:hover {
+    background-color: rgb(108, 183, 218);
+    cursor: pointer;
+}
+
+#botaoTentar {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: -170px;
+    background-color: rgba(0, 68, 255, 0.808);
+    color: white;
+    font-size: 12pt;
+    border: 1px solid black;
+}
+
+#botaoTentar:hover {
+    cursor: pointer;
+    background-color: rgb(20, 107, 207);
+}
+
+input {
+    width: 220px;
+    height: 20px;
+}
+
+.text {
+    font-size: 20pt;
+    display: flex;
+    margin-top: 60px;
+    margin-left: 40px;
+}
+
+.informarPalpite {
+    position: absolute;
+    margin-left: 50px;
+    width: 40%;
+    left: 0;
+    height: 300px;
+}
+
+.palpites {
+    position: absolute;
+    width: 30%;
+    right: 0px;
+    height: 800px;
+    border: 1px solid black;
+    width: 450px;
+    margin-right: 50px;
+    top: 100px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 68, 255, 0.808);
+    width: 450px;
+}
+
+.numeroSorteado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    flex-direction: column;
+}
+
+.acertou {
+    border: 1px solid black;
+    width: 448px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
